@@ -73,8 +73,5 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-less');
     grunt.loadNpmTasks('grunt-contrib-concat');
 
-    grunt.registerTask('test', ['jshint', 'qunit']);
-
-    grunt.registerTask('default', ['copy']);
-
+    grunt.registerTask('default', ['copy', 'less']);
 };
