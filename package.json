@@ -18,6 +18,7 @@
       "grunt-contrib-qunit" : "*",
       "grunt-contrib-concat" : "*",
       "grunt-contrib-jshint" : "*",
+      "grunt-contrib-uglify" : "*",
       "jshint" : "*"
     }
 }
