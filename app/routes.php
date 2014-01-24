@@ -15,7 +15,3 @@ Route::get('/', function()
 {
 	return View::make('hello');
 });
-
-Route::get('/h/new', 'HackathonController@newHackathon');
-Route::post('/h/create', 'HackathonController@createHackathon');
-Route::get('/h/{seo_url}', 'HackathonController@showHackathon');
