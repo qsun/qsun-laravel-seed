@@ -10,13 +10,14 @@
   "license": "Whatever is correct",
   "dependencies":
     {
-      "grunt-cli" : ">0.0.0",
-      "grunt" : ">0.0.0",
-      "grunt-contrib-watch" : ">0.0.0",
-      "grunt-contrib-less" : ">0.0.0",
-      "grunt-contrib-qunit" : ">0.0.0",
-      "grunt-contrib-concat" : ">0.0.0",
-      "grunt-contrib-jshint" : ">0.0.0",
-      "jshint" : ">0.0.0"
+      "grunt-cli" : "*",
+      "grunt" : "*",
+      "grunt-contrib-watch" : "*",
+      "grunt-contrib-copy" : "*",
+      "grunt-contrib-less" : "*",
+      "grunt-contrib-qunit" : "*",
+      "grunt-contrib-concat" : "*",
+      "grunt-contrib-jshint" : "*",
+      "jshint" : "*"
     }
 }
