@@ -46,7 +46,8 @@ module.exports = function(grunt) {
             dev: {
                 options: {
                     sourceMap: true,
-                    sourceMapFilename: "ksajfivxkdfjiv.map",
+                    sourceMapFilename: "public/assets/ksajfivxkdfjiv.map",
+                    sourceMapURL: "/assets/ksajfivxkdfjiv.map",
                     paths: ["app/assets/"],
                 },
                 files: {
