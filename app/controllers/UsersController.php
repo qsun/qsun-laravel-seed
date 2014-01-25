@@ -6,6 +6,12 @@ class UsersController extends BaseController {
     $this->beforeFilter('auth', array('only'=>array('getDashboard')));
   }
 
+  public function getLogout() {
+    Auth::logout();
+
+    return Redirect::to('/')->with('message', 'You are now logged out');
+  }
+
   public function getDashboard() {
     return View::make('users.dashboard');
   }

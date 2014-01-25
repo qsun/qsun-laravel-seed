@@ -27,8 +27,13 @@
           </ul>
 
           <ul class="nav navbar-nav navbar-right">
+            @if(Auth::check())
+            <li><a href="/users/dashboard">{{{ Auth::user()->email }}}</a></li>
+            <li><a href="/users/logout">Logout</a></li>
+            @else
             <li><a href="/users/register">Register</a></li>
             <li><a href="/users/login">Login</a></li>
+            @endif
           </ul>
         </div><!--/.nav-collapse -->
       </div>
