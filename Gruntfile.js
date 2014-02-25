@@ -58,11 +58,15 @@ module.exports = function(grunt) {
         watch: {
             jQuery: {
                 files: ['app/assets/bower_components/jQuery/**/*.js'],
-                tasks: ['copy'],
+                tasks: ['copy:jQuery'],
             },
             less: {
                 files: ['app/assets/**/*.less'],
                 tasks: ['less'],
+            },
+            javascripts: {
+                files: ['app/assets/javascripts/*.js'],
+                tasks: ['copy:dev'],
             }
         }
     });
